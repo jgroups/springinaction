@@ -1,4 +1,4 @@
-package me.lbing;
+package me.lbing.knights;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

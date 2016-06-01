@@ -1,4 +1,4 @@
-package me.lbing;
+package me.lbing.knights;
 
 import static org.mockito.Mockito.*;
 

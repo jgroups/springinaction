@@ -1,4 +1,4 @@
-package me.lbing;
+package me.lbing.knights;
 
 public class RescueDamselQuest implements Quest {
   public void embark() throws QuestException {

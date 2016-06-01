@@ -1,4 +1,4 @@
-package me.lbing;
+package me.lbing.knights;
 
 public class SlayDragonQuest implements Quest {
 
