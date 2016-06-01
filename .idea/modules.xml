@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/knights/knights.iml" filepath="$PROJECT_DIR$/knights/knights.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springidol/springidol.iml" filepath="$PROJECT_DIR$/springidol/springidol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springidol-annotation/springidol-annotation.iml" filepath="$PROJECT_DIR$/springidol-annotation/springidol-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springidol-aop/springidol-aop.iml" filepath="$PROJECT_DIR$/springidol-aop/springidol-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springinaction.iml" filepath="$PROJECT_DIR$/springinaction.iml" />
+    </modules>
+  </component>
+</project>
