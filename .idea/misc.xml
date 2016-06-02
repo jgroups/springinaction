@@ -10,6 +10,11 @@
         <option value="$PROJECT_DIR$/knights/pom.xml" />
         <option value="$PROJECT_DIR$/springidol-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/springidol-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/springidol-qualifiers/pom.xml" />
+        <option value="$PROJECT_DIR$/springidol-atinject/pom.xml" />
+        <option value="$PROJECT_DIR$/springidol-aspectj/pom.xml" />
+        <option value="$PROJECT_DIR$/springidol-javaconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/springidol-autodiscovery/pom.xml" />
       </list>
     </option>
   </component>

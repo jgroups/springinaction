@@ -44,12 +44,52 @@
         <processorPath useClasspath="true" />
         <module name="springidol-aop" />
       </profile>
+      <profile default="false" name="Annotation profile for springidol-annotation-qualifiers" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="springidol-annotation-qualifiers" />
+      </profile>
+      <profile default="false" name="Annotation profile for springidol-atinject" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="springidol-atinject" />
+      </profile>
+      <profile default="false" name="Annotation profile for springidol-aspectj" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="springidol-aspectj" />
+      </profile>
+      <profile default="false" name="Annotation profile for springidol-javaconfig" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="springidol-javaconfig" />
+      </profile>
+      <profile default="false" name="Annotation profile for springidol-autodiscovery" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="springidol-autodiscovery" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="knights" target="1.7" />
       <module name="springidol" target="1.7" />
       <module name="springidol-annotation" target="1.7" />
+      <module name="springidol-annotation-qualifiers" target="1.7" />
       <module name="springidol-aop" target="1.7" />
+      <module name="springidol-aspectj" target="1.7" />
+      <module name="springidol-atinject" target="1.7" />
+      <module name="springidol-autodiscovery" target="1.7" />
+      <module name="springidol-javaconfig" target="1.7" />
       <module name="springinaction" target="1.7" />
     </bytecodeTargetLevel>
   </component>
