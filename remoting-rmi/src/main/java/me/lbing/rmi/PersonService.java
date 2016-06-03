@@ -11,4 +11,5 @@ public interface PersonService extends Remote {
     public List<PersonEntity> getList() throws RemoteException;
     public String helloWorld() throws RemoteException;
     public String sayHelloToSomeBody(String someBodyName) throws RemoteException;
+    public byte[] downloadFile(String fileName) throws RemoteException;
 }

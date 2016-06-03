@@ -33,14 +33,25 @@ public class Program {
         try {
             //调用远程对象，注意RMI路径与接口必须与服务器配置一致
             PersonService personService = (PersonService) Naming.lookup("rmi://127.0.0.1:6600/PersonService");
+
+            //service1
             List<PersonEntity> personList = personService.getList();
             for (PersonEntity person : personList) {
                 System.out.println("ID:" + person.getId() + " Age:" + person.getAge() + " Name:" + person.getName());
             }
+
+            //service2
             String s = personService.helloWorld();
             System.out.println(s);
+
+            //service3
             String hh = personService.sayHelloToSomeBody("King");
             System.out.println(hh);
+
+            //service4
+            byte[] filedata = personService.downloadFile("D:\\test\\01.xlsx");
+            System.out.println("文件的长度是:"+filedata.length);
+
         } catch (Exception ex) {
             ex.printStackTrace();
         }
