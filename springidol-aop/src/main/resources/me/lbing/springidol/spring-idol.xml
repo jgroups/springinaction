@@ -21,6 +21,7 @@
 
   <!--<start id="audience_aspect" />--> 
 <aop:config>
+  <!--定义切面-->
   <aop:aspect ref="audience"><!--<co id="co_refAudienceBean"/>-->
 
     <aop:before pointcut=
