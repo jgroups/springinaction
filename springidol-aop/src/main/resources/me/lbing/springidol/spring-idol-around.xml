@@ -22,10 +22,11 @@
   <!-- <start id="audience_aspect" /> -->
   <aop:config>
     <aop:aspect ref="audience">
+        <!--定义切点-->
       <aop:pointcut id="performance" expression=
           "execution(* me.lbing.springidol.Performer.perform(..))"
           />
-
+      <!--需要org.aspectj.lang.ProceedingJoinPoint作为方法watchPerformance的入参-->
       <aop:around 
           pointcut-ref="performance" 
           method="watchPerformance" />

@@ -22,6 +22,7 @@
 <!--<start id="audience_aspect" />--> 
 <aop:config>
   <aop:aspect ref="audience">
+      <!--将公共切点从通知中提取出来,统一声明-->
     <aop:pointcut id="performance" expression=
         "execution(* me.lbing.springidol.Performer.perform(..))"
         /> <!--<co id="co_defPointcut"/>-->

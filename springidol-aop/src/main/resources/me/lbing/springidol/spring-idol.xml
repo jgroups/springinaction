@@ -23,7 +23,7 @@
 <aop:config>
   <!--定义切面-->
   <aop:aspect ref="audience"><!--<co id="co_refAudienceBean"/>-->
-
+    <!--下面是一系列前置通知和后置通知-->
     <aop:before pointcut=
          "execution(* me.lbing.springidol.Performer.perform(..))"
       method="takeSeats" /> <!--<co id="co_beforePointcut"/>-->
